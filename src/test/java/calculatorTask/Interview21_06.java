@@ -1,4 +1,4 @@
-package TestingOTServers;
+package calculatorTask;
 
 import interViews.DriverFactory;
 import org.openqa.selenium.By;
