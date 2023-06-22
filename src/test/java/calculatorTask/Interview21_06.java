@@ -28,7 +28,7 @@ public class Interview21_06 {
     }
 
     @Test
-    public void calculatorTest () {
+    public void calculatorTest() {
 
         driver.get("https://calculator.com/");
         // 2023
@@ -51,14 +51,6 @@ public class Interview21_06 {
         System.out.println("Aaaaaaaaa " + number);
         // liczenie 2023 * 2035
 
-//        driver.findElement(By.xpath("//*[@id=\"calcbuttons\"][@value=\"1\"]")).click();
-//        driver.findElement(By.xpath("//*[@id=\"calcbuttons\"]/div[8]/input[18]")).click();
-//        driver.findElement(By.xpath("//*[@id=\"calcbuttons\"]/div[8]/input[12]")).click();
-//        driver.findElement(By.xpath("//*[@id=\"calcbuttons\"]/div[8]/input[13]")).click();
-//        // *
-//        driver.findElement(By.xpath("//*[@id=\"calcbuttons\"]/div[8]/input[8]")).click();
-        // 2035
-
         // ------------------------------------------------- Po zakonczeniu rozmowy:
         // Po zakonczeniu rozmowy:
         // ------------------------------------------------- Po zakonczeniu rozmowy:
@@ -70,7 +62,7 @@ public class Interview21_06 {
         // *
         driver.findElement(By.xpath("//*[@id=\"calcbuttons\"]/div[8]/input[8]")).click();
 
-        char [] charArray = number.toCharArray();
+        char[] charArray = number.toCharArray();
 //        driver.get("https://calculator.com/");
 //        driver.findElement(By.xpath("//*[@id=\"calcbuttons\"][@value=\"1\"]")).click();
 //        driver.findElement(By.xpath("//*[@id=\"calcbuttons\"]/div[8]/input[18]")).click();
@@ -87,5 +79,5 @@ public class Interview21_06 {
         int actualResult = Integer.parseInt(actual);
         System.out.println(actual);
         Assert.assertEquals(expected, actualResult);
-     }
+    }
 }
